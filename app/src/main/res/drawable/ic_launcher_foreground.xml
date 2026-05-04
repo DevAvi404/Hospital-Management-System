@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+  <group android:scaleX="0.6111111"
+      android:scaleY="0.6111111"
+      android:translateX="31.11111"
+      android:translateY="31.11111">
+
+      <!-- Green rounded background -->
+      <path
+          android:fillColor="#0F6E56"
+          android:pathData="M36,0 L124,0 Q160,0 160,36 L160,124 Q160,160 124,160 L36,160 Q0,160 0,124 L0,36 Q0,0 36,0 Z"/>
+
+      <!-- Outer circle ring -->
+      <path
+          android:fillColor="#00000000"
+          android:strokeColor="#ffffff"
+          android:strokeWidth="2"
+          android:strokeAlpha="0.3"
+          android:pathData="M80,36 m-34,0 a34,34 0,1 1,68 0 a34,34 0,1 1,-68 0"/>
+
+      <!-- Inner circle subtle fill -->
+      <path
+          android:fillColor="#ffffff"
+          android:fillAlpha="0.12"
+          android:pathData="M80,46 m-24,0 a24,24 0,1 1,48 0 a24,24 0,1 1,-48 0"/>
+
+      <!-- Pulse/heartbeat line -->
+      <path
+          android:fillColor="#00000000"
+          android:strokeColor="#ffffff"
+          android:strokeWidth="3"
+          android:strokeLineCap="round"
+          android:strokeLineJoin="round"
+          android:pathData="M44,70 L58,70 L64,54 L72,86 L80,62 L86,78 L92,70 L116,70"/>
+
+      <!-- Center dot -->
+      <path
+          android:fillColor="#ffffff"
+          android:pathData="M80,65 m-5,0 a5,5 0,1 1,10 0 a5,5 0,1 1,-10 0"/>
+
+      <!-- Bottom bar -->
+      <path
+          android:fillColor="#ffffff"
+          android:fillAlpha="0.4"
+          android:pathData="M58,112 L102,112 Q104,112 104,114 L104,116 Q104,116 102,116 L58,116 Q56,116 56,114 L56,114 Q56,112 58,112 Z"/>
+
+  </group>
+</vector>

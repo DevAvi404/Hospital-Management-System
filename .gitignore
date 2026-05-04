@@ -1,0 +1,26 @@
+# Built files
+/build
+app/build
+
+# Local configuration
+local.properties
+
+# Firebase config - DO NOT COMMIT
+app/google-services.json
+
+# IDE files
+.idea
+*.iml
+.gradle
+
+# Keystore files
+*.jks
+*.keystore
+
+# DS Store (Mac)
+.DS_Store
+
+# WhatsApp images and other media
+*.jpeg
+*.jpg
+*.png
