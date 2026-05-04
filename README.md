@@ -2,6 +2,16 @@
 
 A full-featured Hospital Management System Android app built with Kotlin, Jetpack Compose, and Firebase.
 
+## 📱 Screenshots
+
+| Login | Sign Up | Patient Dashboard |
+|-------|---------|-------------------|
+| ![Login](screenshots/login.png) | ![Sign Up](screenshots/signup.png) | ![Patient](screenshots/patient_dashboard.png) |
+
+| Doctor Dashboard | Receptionist Dashboard | Admin Dashboard |
+|-----------------|----------------------|-----------------|
+| ![Doctor](screenshots/doctor_dashboard.png) | ![Receptionist](screenshots/receptionist_dashboard.png) | ![Admin](screenshots/admin_dashboard.png) |
+
 ## ✨ Features
 
 ### 👨‍💼 Admin
